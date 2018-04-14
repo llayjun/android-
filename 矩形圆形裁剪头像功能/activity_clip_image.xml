@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <com.tongju.common.widget.view.ClipImageView
+        android:id="@+id/src_pic"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <com.tongju.common.widget.view.ClipRectangleView
+        android:id="@+id/clipview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x60">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/x45"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:src="@drawable/ic_left_ffffff_58" />
+
+        <com.tongju.common.widget.view.RTextView
+            android:id="@+id/tv_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/x60"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/x15"
+            android:paddingEnd="@dimen/x60"
+            android:paddingStart="@dimen/x60"
+            android:paddingTop="@dimen/x15"
+            android:text="使用"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_42"
+            app:background_normal="#80000000"
+            app:corner_radius="@dimen/x48" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
